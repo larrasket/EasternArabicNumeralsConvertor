@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <RootNamespace>Eastern_Arabic_numerals_Convertor</RootNamespace>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <Company>salehmu</Company>
+        <Description>.NET Package to easily convert Arabic numerals to Arabic-Hindu numerals.
+</Description>
+        <Copyright>GPL</Copyright>
+    </PropertyGroup>
+
+</Project>

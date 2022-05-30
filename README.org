@@ -1,0 +1,21 @@
+#+title: Eastern Arabic Numerals Convertor
+
+
+* Description
+.NET Package to easily convert Arabic numerals to Arabic-Hindu numerals.
+* Usage
+#+begin_src csharp
+using Eastern_Arabic_numerals_Convertor;
+#+end_src
+** Convert From Arabic Numerals to Arabic-Hindu Numerals
+#+begin_src csharp
+var toIndic = ArabicIndic.ConvertToIndic(4141); // toIndic = "????
+var toIndicString = ArabicIndic.ConvertToIndic("4141"); // toIndic = "????
+var toIndicDoubleString = ArabicIndic.ConvertToIndic("41.41"); // toIndicDouble = "??,??"
+var toIndicDouble = ArabicIndic.ConvertToIndic(41.41); // toIndicDouble = "??,??"
+#+end_src
+** Convert From Hindu-Arabic Numerals to Arabic Numerals
+#+begin_src csharp
+var toArabic = ArabicIndic.ConvertToArabic("??????"); //  toArabic = "558099"
+var toArabicDouble = ArabicIndic.ConvertToArabic("?????,?"); //toArabicDouble = "55809.9"
+#+end_src
